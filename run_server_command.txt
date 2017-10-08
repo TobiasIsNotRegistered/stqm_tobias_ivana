@@ -1,5 +1,9 @@
-Copy & Paste into your console
+START COMMAND
 
 java -cp ./lib/hsqldb-2.4.0.jar org.hsqldb.server.Server --database.0 file:mydb --dbname.0 xdb
+
+STOP COMMAND
+
+java -jar sqltool.jar --sql "SHUTDOWN;" xdb
 
 
